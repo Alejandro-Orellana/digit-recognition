@@ -36,4 +36,4 @@ model.fit(x_train, y_train, epochs=5, batch_size=32)
 loss, accuracy = model.evaluate(x_test, y_test)
 print(f"Test accuracy: {accuracy * 100}%")
 
-model.save('mnist_model.h5')
+model.save('mnist_model.keras')
